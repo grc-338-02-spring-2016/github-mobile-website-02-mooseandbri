@@ -1,0 +1,73 @@
+.container{
+    height:auto;
+    margin: .5em 0;
+    width: 100%;
+}
+
+body {
+    background: url(images/school.png) #A1D9D9;
+    padding-bottom: 80px;
+}
+
+a.center{
+    text-align: center;
+    width: 100%
+}
+
+.center img {
+    max-width: 100%;
+}
+
+nav {
+    text-align: center;
+    padding: 12px 3%;
+}
+
+nav a {
+   color:#fff;
+    font-size: 3em;
+    display: inline;
+}
+
+nav a:hover{
+    color: #B16A68;
+}
+
+li {
+    display: inline;
+    padding: 3%;
+
+}
+
+hr {
+    width:75%;
+    color:#fff; 
+    size:1.5px;
+}
+
+footer {
+    bottom:0;
+    position: absolute; 
+    width:100%;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-bottom: 14px;
+    font-family: "Poppins";
+    color: #C2C2C2; 
+    font-size: 1em;
+}
+footer a {
+    color: #c2c2c2;
+    font-size: 2em;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.footercenter{
+    text-align: center;
+    width: 100%;
+}
