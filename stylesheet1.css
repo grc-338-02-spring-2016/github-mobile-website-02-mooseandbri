@@ -6,7 +6,6 @@
 
 body {
     background: url(images/school.png) #A1D9D9;
-    padding-bottom: 80px;
 }
 
 a.center{
@@ -45,14 +44,40 @@ hr {
     size:1.5px;
 }
 
+.pages{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgpages img{
+    width: 100%;
+    padding: 4% 0 4% 0;
+    position: relative;
+}
+
+img.grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  transition-duration: 1s;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+
+}
+.about{
+    
+}
 footer {
     bottom:0;
-    position: absolute; 
+    position: relative;
     width:100%;
     background: #fff;
     padding-top: 20px;
     padding-bottom: 10px;
-}
+    }
 
 footer p {
     padding-bottom: 14px;
