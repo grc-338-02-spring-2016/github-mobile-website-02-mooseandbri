@@ -77,9 +77,12 @@ h1 {
     margin: 0 auto;
 }
 
+.plinks{
+    color: #B16A68;
+}
+
 a:link {
     text-decoration: none;
-    color: #B16A68;
 }
 
 a h2:hover {
@@ -96,6 +99,15 @@ h2{
     padding: 7% 5% 2% 5%;
 }
 
+h2 a {
+    font-weight: 700;
+    color:#B16A68;
+}
+
+h2 a:hover {
+    color: #fff;
+}
+
 p{
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 1em;
@@ -104,13 +116,20 @@ p{
     line-height: 1.4em;
     padding: 1% 5%;
 }
+
+.map iframe {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    
+}
 footer {
     bottom:0;
     position: relative;
     width:100%;
     background: #fff;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-top: 20px;
     }
 
