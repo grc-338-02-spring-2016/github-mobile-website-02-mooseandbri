@@ -42,6 +42,7 @@ hr {
     width:75%;
     color:#fff; 
     size:1.5px;
+    
 }
 
 .pages{
@@ -52,7 +53,6 @@ hr {
 .imgpages img{
     width: 100%;
     padding: 4% 0 4% 0;
-    position: relative;
 }
 
 img.grayscale:hover {
@@ -63,12 +63,35 @@ img.grayscale:hover {
 }
 
 h1 {
-    position: absolute;
-    top: 200px;
-
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
 }
-.about{
-    
+
+.contentimg{
+    width: 100%;
+    padding: 4% 0 4% 0; 
+    margin: 0 auto;
+}
+
+h2{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #B16A68;
+    text-align: center;
+    font-weight: 300;
+}
+
+p{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1em;
+    color: #686968;
+    font-weight: 300;
+    line-height: 1.4em;
+    padding: 1% 5%;
 }
 footer {
     bottom:0;
@@ -77,6 +100,7 @@ footer {
     background: #fff;
     padding-top: 20px;
     padding-bottom: 10px;
+    margin-top: 20px;
     }
 
 footer p {
