@@ -77,12 +77,22 @@ h1 {
     margin: 0 auto;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a h2:hover {
+    text-decoration: underline;
+}
+
 h2{
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 1.3em;
     color: #B16A68;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
+    text-decoration: none;
+    padding: 7% 5% 2% 5%;
 }
 
 p{
