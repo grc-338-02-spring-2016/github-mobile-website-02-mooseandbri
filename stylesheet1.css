@@ -165,3 +165,35 @@ footer a {
     text-align: center;
     width: 100%;
 }
+
+/*For Tablets*/
+@media only screen and (min-width: 768px) {	
+   .center img {
+    max-width: 70%;
+}
+ 
+    hr{
+        width:0%;
+    }
+ 
+.imgpages img{
+    width: 50%;
+    padding: 4% 0 4% 0;
+    
+}
+    
+grid.isotope{ layoutMode: 'fitRows'; }
+}
+
+/*For Desktop*/
+@media only screen and (min-width: 1024px) {	
+.center img {
+    max-width: 30%;
+}
+    a.center{
+    text-align: left;
+    margin-left: 2%;
+    width: 100%
+}
+}
+
