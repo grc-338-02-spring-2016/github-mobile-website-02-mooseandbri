@@ -1,0 +1,28 @@
+/*For Desktop*/
+@media only screen and (min-width: 1024px) {	
+.center img {
+    max-width: 90%;
+}
+    a.center{
+    float: left;
+    margin-left: 2%;
+    width: 40%
+}
+    h1{
+        clear: left;
+        font-size: 3em;
+    }
+    nav{
+        float: right;
+        width: 32%;
+        padding-top: 5%;
+        display: inline;
+
+    }
+    nav a {
+        padding-right: 4%;
+        font-size: 3em;
+        
+    }
+    
+}

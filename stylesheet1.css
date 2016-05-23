@@ -172,28 +172,20 @@ footer a {
     max-width: 70%;
 }
  
-    hr{
-        width:0%;
-    }
- 
+
 .imgpages img{
-    width: 50%;
-    padding: 4% 0 4% 0;
+    width: 48%;
+    padding: 4% 0 4% 2%;
+    float: left;
     
 }
-    
-grid.isotope{ layoutMode: 'fitRows'; }
-}
+ 
+    footer {
+        clear:left;
+    }
 
 /*For Desktop*/
 @media only screen and (min-width: 1024px) {	
-.center img {
-    max-width: 30%;
-}
-    a.center{
-    text-align: left;
-    margin-left: 2%;
-    width: 100%
-}
+
 }
 
