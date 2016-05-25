@@ -11,6 +11,22 @@
 <link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome.min.css">
 <link rel="stylesheet" href="Hover-master/css/hover.css" media="all">
 <link rel="stylesheet" href="stylesheet2.css" media="all">
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qtip.custom/jquery.qtip.js"></script>
+<link rel="stylesheet" href="jquery.qtip.custom/jquery.qtip.min.css">
+    
+<script type="text/javascript">
+// Create the tooltips only on document load
+$(document).ready(function() 
+{
+   // By suppling no content attribute, the library uses each elements title attribute by default
+   $(' a[title]').qtip();
+        
+});
+ 
+    
+</script>
 
 </head>
 
@@ -36,9 +52,16 @@
     <h1>ABOUT</h1>
     <hr>
     <img src="images/about.jpg" alt="about" class="contentimg">
-    <h2>Welcome to Hackity</h2>
-    <p>We're an information hub that centers itself on hackathons around the globe. All your need-to-knows about upcoming hackathons can be found in one convenient location.</p> <br> <h2>What Is a Hackathon?</h2> <p>An event lasting anywhere from 12 hours to even 36 hours designed to connect students with promising mentors and peers, build their skills, and grow any idea into facet of reality. Most hackathons require no experience and welcome all skill levels and areas of focus.</p> <h2>Event Submission</h2><p>Want your hackathon on our site? Visit our <a href="contact.html">contact</a> page for more info on how to send us your information our way.</p>
-    
+    <h2 class="centertext"><strong>Welcome to Hackity</strong></h2>
+    <p>We're an information hub that centers itself on hackathons around the globe. All your need-to-knows about upcoming hackathons can be found in one convenient location.</p> <br> 
+<div class="upcp1">
+    <h2>What Is a Hackathon?</h2> <p>An event lasting anywhere from 12 hours to even 36 hours designed to connect students with promising mentors and peers, build their skills, and grow any idea into facet of reality. Most hackathons require no experience and welcome all skill levels and areas of focus.</p> 
+</div>
+<div class="upcp2">
+    <h2>Event Submission</h2><p>Want your hackathon on our site? Visit our <a href="contact.html">contact</a> page for more info on how to send us your information our way.</p>
+</div>
+
+
  <footer>
    <div class="footercenter">
     <p>For All Your Hacking Needs</p>

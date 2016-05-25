@@ -25,4 +25,25 @@
         
     }
     
+    .upcp1{
+        float: left;
+        width: 48%;
+        padding-left: 2%;
+    }
+    
+    .upcp2{
+        float: left;
+        width: 50%;
+    }
+    
+    .upcp3{
+        clear: left;
+        float: left;
+        width: 48%;
+        padding-left: 2%;
+    }
+    .upcp4{
+        float: left;
+        width: 50%;
+    }
 }

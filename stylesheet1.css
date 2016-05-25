@@ -115,7 +115,7 @@ p{
     color: #686968;
     font-weight: 300;
     line-height: 1.4em;
-    padding: 1% 5%;
+    padding: 1% 5% 3% 5%;
 }
 
 em{
@@ -127,16 +127,18 @@ strong{
     font-size: 1.3em;
 
 }
+
+.centertext{
+    text-align: center;
+}
 .embed-container iframe {
     width: 100%;
     margin: 0 5% 0 5%;
-    display: block;
-    padding-top: 5%;
+    display: block;    
 }
+
 .map{
-    display: block;
-    width: 100%;
-    margin: 0 auto; 
+    margin-bottom: 3%;
 }
 footer {
     bottom:0;
@@ -145,7 +147,6 @@ footer {
     background: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
     }
 
 footer p {

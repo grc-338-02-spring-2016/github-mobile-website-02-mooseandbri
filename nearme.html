@@ -11,6 +11,22 @@
 <link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome.min.css">
 <link rel="stylesheet" href="Hover-master/css/hover.css" media="all">
 <link rel="stylesheet" href="stylesheet2.css" media="all">
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qtip.custom/jquery.qtip.js"></script>
+<link rel="stylesheet" href="jquery.qtip.custom/jquery.qtip.min.css">
+    
+<script type="text/javascript">
+// Create the tooltips only on document load
+$(document).ready(function() 
+{
+   // By suppling no content attribute, the library uses each elements title attribute by default
+   $(' a[title]').qtip();
+        
+});
+ 
+    
+</script>
 
 </head>
 
@@ -37,15 +53,17 @@
     <hr>
 <img src="images/nearme.jpg" alt="Hacks Near Me" class="contentimg"> <div class="map">
 
-<h2><strong>Hackity's Hackathon Map</strong></h2>
+<h2 class="centertext"><strong>Hackity's Hackathon Map</strong></h2>
 <p>All of the upcoming hackathons have been placed on this map for your convenience. Simply navigate around this map to search for and find hackathons near your location. <br> <br> Star the Hackity Hackathon map to save it to your google maps for reference later or share it at your pleasure with friends for simplified planning. </p>
 </div>
     
 <!--Map for stuff near-->
+<div class="map">
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCvkNGmMv5VsUQcLUqAbo5nzGipSByGa4I&sensor=false&extension=.js'></script> 
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 0 auto; display:block; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; display: block; top: 0; left: 0; width: 90%; height: 90%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/d/u/0/embed?mid=1tWzplwVFME2IwV6lKY_sEbYW6VY' width='640' height='480'></iframe></div>
 
+</div>
     
 <footer>
    <div class="footercenter">

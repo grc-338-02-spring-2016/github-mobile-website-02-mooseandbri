@@ -12,6 +12,22 @@
 <link rel="stylesheet" href="Hover-master/css/hover.css" media="all">
 <link rel="stylesheet" href="stylesheet2.css" media="all">
     
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qtip.custom/jquery.qtip.js"></script>
+<link rel="stylesheet" href="jquery.qtip.custom/jquery.qtip.min.css">
+    
+<script type="text/javascript">
+// Create the tooltips only on document load
+$(document).ready(function() 
+{
+   // By suppling no content attribute, the library uses each elements title attribute by default
+   $(' a[title]').qtip();
+        
+});
+ 
+    
+</script>
+    
 </head>
 
 <body>
@@ -35,11 +51,15 @@
     <h1>CONTACT</h1>
     <hr>
     <img src="images/contact.jpg" alt="Contact" class="contentimg">
+<div class="upcp1">
     <h2>Event Submissions</h2>
     <p>Send us an email at <em>events@hackity.com</em> with the name of the event, the date, the website and any other information and we'll get back to you soon on adding the event to our website. </p>
+</div>
+<div class="upcp2">
     <h2>Just Wanna Talk?</h2>
-    <p>Visit us on <a href="http://facebook.com" class="plinks">Facebook</a>, <a href="http://twitter.com" class="plinks">Twitter</a>, or <a href="http://instagram.com" class="plinks">Instagram</a> to get in touch with us.<br><br> Feel free to email us at <em>help@hackity.com.</em></p>
-
+    <p>Visit us on <a href="http://facebook.com" title="Like Us" class="plinks">Facebook</a>, <a href="http://twitter.com" class="plinks" title="Tweet Us">Twitter</a>, or <a href="http://instagram.com" class="plinks" title="Follow Us">Instagram</a> to get in touch with us.<br><br> Feel free to email us at <em>help@hackity.com.</em></p>
+</div>
+    
 <footer>
    <div class="footercenter">
     <p>For All Your Hacking Needs</p>
