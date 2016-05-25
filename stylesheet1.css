@@ -167,6 +167,10 @@ footer a {
     width: 100%;
 }
 
+.qtipcolor{
+    background-color: red;
+}
+
 /*For Tablets*/
 @media only screen and (min-width: 768px) {	
    .center img {
