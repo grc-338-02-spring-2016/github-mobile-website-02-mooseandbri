@@ -21,7 +21,18 @@
 $(document).ready(function() 
 {
    // By suppling no content attribute, the library uses each elements title attribute by default
-   $(' a[title]').qtip();
+   $(' a[title]').qtip({
+       show: {
+            effect: function() {
+                $(this).slideDown();
+            }
+        },
+        hide: {
+            effect: function() {
+                $(this).slideUp();
+            }
+        }
+   });
         
 });
  
@@ -68,10 +79,10 @@ $(document).ready(function()
     
 <h2 class="mapheader">Locations</h2>
 <ul>
-    <li class="list"><a href="http://creativemediadev.com/hackathon/">California Polytechnic State University, San Luis Obispo</a></li>
-    <li class="list"><a href="http://hackdavis.io/">University of Califonia, Davis</a></li>
-    <li class="list"><a href="http://lahacks.com/">University of California, Los Angeles</a></li>
-    <li class="list"><a href="http://sbhacks.com/">University of California, Santa Barbara</a></li>
+    <li class="list"><a href="http://creativemediadev.com/hackathon/" title="Click for More Information">California Polytechnic State University, San Luis Obispo</a></li>
+    <li class="list" ><a href="http://hackdavis.io/" title="Click for More Information">University of Califonia, Davis</a></li>
+    <li class="list"><a href="http://lahacks.com/" title="Click for More Information">University of California, Los Angeles</a></li>
+    <li class="list"><a href="http://sbhacks.com/" title="Click for More Information">University of California, Santa Barbara</a></li>
 </ul>
     
 <footer>

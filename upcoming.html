@@ -21,7 +21,18 @@
 $(document).ready(function() 
 {
    // By suppling no content attribute, the library uses each elements title attribute by default
-   $(' a[title]').qtip();
+   $(' a[title]').qtip({
+       show: {
+            effect: function() {
+                $(this).slideDown();
+            }
+        },
+        hide: {
+            effect: function() {
+                $(this).slideUp();
+            }
+        }
+        });
         
 });
  
